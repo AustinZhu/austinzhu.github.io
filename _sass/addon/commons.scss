@@ -42,7 +42,7 @@ html[mode=dark] {
 }
 
 :root {
-  font-size: 16px;
+  font-size: 100%;
 }
 
 body {
@@ -698,7 +698,7 @@ $sidebar-display: "sidebar-display";
 
   .site-subtitle {
     font-size: 95%;
-    color: #828282;
+    color: rgba(179, 244, 255, 0.86);
     line-height: 1.2rem;
     word-spacing: 1px;
     margin: 0.5rem 1.5rem 0.5rem 1.5rem;
