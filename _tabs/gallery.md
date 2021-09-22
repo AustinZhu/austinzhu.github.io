@@ -1,0 +1,7 @@
+---
+layout: page
+title: Gallery
+---
+
+
+{% include image-gallery.html folder="/uploads/album" %}
