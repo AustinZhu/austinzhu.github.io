@@ -38,10 +38,7 @@ instagram:
   username: austinzhu123
 
 linkedin:
-  username: yiming-zhu-622a98152
-
-facebook:
-  username: austinzhu123           # change to your twitter username
+  username: yiming-zhu-622a98152         # change to your twitter username
 
 social:
   # Change to your full name.
@@ -53,7 +50,6 @@ social:
     - https://twitter.com/austinzhu123      # change to your twitter homepage
     - https://github.com/AustinZhu       # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/austinzhu123
     - https://www.linkedin.com/in/yiming-zhu-622a98152
 
 google_site_verification: google_meta_tag_verification # change to your verification string

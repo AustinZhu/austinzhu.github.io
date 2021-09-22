@@ -17,9 +17,9 @@
 - 
   type: instagram
   icon: "fab fa-instagram"
-- 
-  type: facebook
-  icon: "fab fa-facebook"
+# - 
+#   type: facebook
+#   icon: "fab fa-facebook"
 
 # Uncomment and complete the url below to enable more contact options
 # -
