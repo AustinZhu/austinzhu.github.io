@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gallery
-icon: fas fa-info
+icon: fas fa-images
 order: 4
 ---
 
