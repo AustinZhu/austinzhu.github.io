@@ -67,7 +67,7 @@ _2018 - 2022_
 
 **Software Engineer**
 
-​    _Mar 2020 to Aug 2021_
+​    _Mar 2020 to Aug 2020_
 
 - Engaged in blockchain related development in a professional setting.
 - Designed and implemented API endpoints using Spring Boot.
