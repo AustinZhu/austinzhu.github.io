@@ -12,6 +12,7 @@ A highly motivated, responsible student majoring in computer science, with essen
 ### Waseda University
 
 _2018 - 2022_
+
 **Bachelor of Engineering** in Computer Science,  _Tokyo, Japan_
 
 - Researching in Terauchi Laboratory, mainly focusing on program synthesis.
@@ -31,6 +32,7 @@ _2018 - 2022_
 ​    _Tokyo, Japan_
 
 **Software Engineer Intern**
+
 ​    _Sep 2021 to Present_
 
 - Working on backend services.
@@ -40,6 +42,7 @@ _2018 - 2022_
 ​    _Tokyo, Japan_
 
 **Software Engineer Intern**
+
 ​    _Aug 2021 to Aug 2021_
 
 - Drafted a solution to migrate the usage of Personal Access Token to GitHub Apps.
@@ -50,6 +53,7 @@ _2018 - 2022_
 ​    _Tokyo, Japan_
 
 **Software Engineer**
+
 ​    _Dec 2020 to May 2021_
 
 - Used Grafana for service monitoring
@@ -62,6 +66,7 @@ _2018 - 2022_
 ​    _Tokyo, Japan_
 
 **Software Engineer**
+
 ​    _Mar 2020 to Aug 2021_
 
 - Engaged in blockchain related development in a professional setting.
@@ -76,6 +81,7 @@ _2018 - 2022_
 ### WasedaTime
 
 **Technical Leader**
+
 ​    _Jun 2020_
 
 #### Project description
