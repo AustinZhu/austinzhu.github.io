@@ -42,7 +42,7 @@ html[mode=dark] {
 }
 
 :root {
-  font-size: 100%;
+  font-size: 90%;
 }
 
 body {
@@ -1612,7 +1612,7 @@ $sidebar-display: "sidebar-display";
             position: relative;
             bottom: 1px;
 
-            &.unloaded {
+            .unloaded {
               display: inline-block !important;
             }
           }
