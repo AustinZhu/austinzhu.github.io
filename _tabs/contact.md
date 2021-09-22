@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact
+icon: fas fa-envelope
+order: 6
 ---
 
 <form accept-charset="UTF-8" action="https://formspree.io/xrgyojkl" method="POST" enctype="multipart/form-data" target="_blank">
