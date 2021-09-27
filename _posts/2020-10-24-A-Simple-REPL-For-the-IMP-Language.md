@@ -3,7 +3,7 @@ title: A Simple REPL For the IMP Language
 author: Austin Zhu
 date: 2020-10-24 20:00:34 +0900
 categories: [Blogs]
-tags: [programming, programming language, haskell]
+tags: [programming language, haskell]
 math: true
 comment: true
 ---

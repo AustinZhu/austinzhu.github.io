@@ -2,7 +2,7 @@
 title: Category Basics
 author: Austin Zhu
 date: 2021-08-25 16:21:04 +0800
-categories: [Blogs]
+categories: [Notes]
 tags: [category theory, type theory]
 math: true
 comment: true

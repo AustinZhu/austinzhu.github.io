@@ -2,8 +2,8 @@
 title: Difference Among WHNF, HNF and NF
 date: 2020-08-04 12:11:00 +0900
 author: Austin Zhu
-categories: [Notes]
-tags: [programming, haskell]
+categories: [Blogs]
+tags: [programming language, haskell]
 math: true
 comment: true
 ---
