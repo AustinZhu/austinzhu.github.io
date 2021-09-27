@@ -1,7 +1,7 @@
 ---
 title: Church Numeral与Haskell中init函数的联系
 author: Austin Zhu
-date: 2020-08-07 10:40:00 +0900
+date: 2020-09-07 10:40:00 +0900
 categories: [Blogs]
 tags: [haskell, lambda calculus]
 math: true

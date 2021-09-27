@@ -1,5 +1,5 @@
 ---
-title: WHNF，HNF和NF的区别
+title: Difference Among WHNF，HNF and NF
 date: 2020-08-04 12:11:00 +0900
 author: Austin Zhu
 categories: [Notes]
@@ -8,9 +8,9 @@ math: true
 comment: true
 ---
 
-最近在查阅 Haskell 的 List 模组时，在`foldl'`的描述中发现了一个专有名词，weak head normal form(WHNF)。于是去阅读了一下相关的定义，为了防止以后忘记，在这里记录一下。
+Recently when I was reading the documentation of `foldl'` in the `List` module, I had some difficulty understanding the term *Weak Head Normal Form*.
 
-首先，看一下 `foldl'` 的描述：
+Here is the description for `foldl'`, a strict version of the lazy `foldl`:
 
 > `foldl' :: Foldable t => (b -> a -> b) -> b -> t a -> b`
 >
@@ -20,25 +20,29 @@ comment: true
 >
 > For a general `Foldable` structure this should be semantically identical to,
 >
-> ```
+> ```haskell
 > foldl' f z = foldl' f z . toList
 > ```
 
-可以看到，相对于 lazy 的`foldl`，`foldl'` 是严格求值的。这就意味着在 fold 过程中，总会尽可能的做 function application 来减少 thunk，这在很大程度上降低了出现 StackOverflow 的可能。那么 weak head normal form 指的就是 function application 后的一种等价形式。
+From the description we know that during folding, `foldl'` will apply the function eagerly to reduce thunks. What is a thunk exactly? A thunk is a value that is not fully evaluated. For example, `1+2`.
 
-## WHNF
+How is that useful? Well, Haskell is a lazy language, and laziness is handy when working on things like infinite sequences. The evaluation strategy of Haskell is called *call-by-need*. So terms will not be evaluated until it is necessary to do so. Also, once a term is evaluated, its result will be recorded for future usage, which is efficient and desirable (if you live in the world of pure functions). 
 
-在 Haskell 中，满足以下其一则为 WHNF：
+However, in some cases you do want strict evaluation, which *might* help you avoid StackOverflow errors. During the evaluation, different normal forms come into play.
 
-1. 表达式的最外层为 value construtor
-2. 表达式为 lamda 表达式
+## Weak Head Normal Form(WHNF)
 
-可以看出，对于一个表达式，WHNF 不是唯一的。
+An expression is in its weak head normal form if one of the following condition holds：
 
-## HNF
+1. The outmost part(i.e. the root node of the AST ) is a data constructor, or
+2. It is a lambda abstraction
 
-HNF 要求 lambda 表达式内部无法进一步的做 $$\beta-reduction$$。
+WHNF is not unique for an expression.
 
-## NF
+## Head Normal Form(HNF)
 
-Normal form 是最为严格的一种 normalization，它要求在表达式的任意位置都无法进一步做$$\beta-reduction$$和$$\eta-reduction$$。给出任意表达式，其 NF 唯一。
+An expression is in its head normal form if no further β-reduction can be done in the lambda body. HNF is automatically an WHNF.
+
+## Normal Form(NF)
+
+Normal form is the most strict normal form. An expression is in its normal form if no further β-reduction and η-reduction can be done. NF is unique for any expression.

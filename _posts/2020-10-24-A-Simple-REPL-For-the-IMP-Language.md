@@ -1,7 +1,7 @@
 ---
 title: A Simple REPL For the IMP Language
 author: Austin Zhu
-date: 2020-09-24 20:00:34 +0900
+date: 2020-10-24 20:00:34 +0900
 categories: [Blogs]
 tags: [programming, programming language, haskell]
 math: true
@@ -9,7 +9,6 @@ comment: true
 ---
 
 IMP is a simple imperative language described in the book *The Formal Semantics of Programming Languages*. The schema of the language is defined as follows:
-
 
 $$
 \begin{align*}
@@ -22,7 +21,6 @@ c:=&\textbf{skip}\mid X:= a\mid c_0;c_1\mid \textbf{if }b\textbf{ then } c_0 \te
 \text{Com})
 \end{align*}
 $$
-
 
 The REPL is implemented in Haskell. To play with it, execute `stack build --exec IMP-Parser-exe` in your favorite terminal and start coding in IMP. Notice there appears to be some bugs when evaluating on some expressions. Please feel free to submit any issue on Github and I will try to fix it in future commits.
 
