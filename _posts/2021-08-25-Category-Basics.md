@@ -62,12 +62,12 @@ A *category* $$C$$ consists of:
    - Composition: homomorphism composition.
 5. $$\textbf{Ω-Alg}$$
 
-   - Objects: Ω-Algebras, $$(\left|A\right|, a)$$.
-     - $$\left|A\right|$$ is a set called *carrier*.
-     - $$a:\sum_{\omega\in\Omega}\left|A\right|^{ar(\omega)}\rightarrow\left|A\right|$$ is an *interpretation*.
+   - Objects: Ω-Algebras, $$(\vert A\vert, a)$$.
+     - $$\vert A\vert$$ is a set called *carrier*.
+     - $$a:\sum_{\omega\in\Omega}\vert A\vert^{ar(\omega)}\rightarrow\vert A\vert$$ is an *interpretation*.
        - $$\Omega$$ is a set of operator (signature).
        - $$ar(\omega)$$ is the arity of $$\omega$$.
-   - Arrows: $$\Omega$$-homomorphisms, $$h:\left|A\right|\rightarrow\left|B\right|$$, such that $$\forall\omega\in\Omega.h\left(a(x_1,...,x_{ar(\omega)})\right)=b\left(h(x_1),...,h(x_{ar(\omega)})\right)$$.
+   - Arrows: $$\Omega$$-homomorphisms, $$h:\vert A\vert\rightarrow\vert B\vert$$, such that $$\forall\omega\in\Omega.h\left(a(x_1,...,x_{ar(\omega)})\right)=b\left(h(x_1),...,h(x_{ar(\omega)})\right)$$.
    - Composition: homomorphism composition.
 
 **More examples:**
