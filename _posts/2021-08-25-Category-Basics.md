@@ -57,18 +57,18 @@ A *category* $$C$$ consists of:
      - $$G$$ is a set.
      - $$\cdot$$ is an associative binary operator.
      - an identity element $$e\in G$$ such that $$\forall g\in G.g\cdot e=g=e\cdot g$$.
-     - inverse: $$\forall g\in G.\exist g^{-1}\in G.g\cdot g^{-1}=e=g^{-1}\cdot g$$.
+     - inverse: $$\forall g\in G.\exists g^{-1}\in G.g\cdot g^{-1}=e=g^{-1}\cdot g$$.
    - Arrows: group homomorphisms, $$f:G\rightarrow H$$, such that $$\forall g,g'\in G.g\cdot_G g'=f(g)\cdot_H f(g')$$, $$f(e_M)=e_N$$
    - Composition: homomorphism composition.
 5. $$\textbf{Ω-Alg}$$
 
-   - Objects: $$\Omega$$-Algebras, $$(|A|, a)$$.
-     - $$|A|$$ is a set called *carrier*.
-     - $$a:\sum_{\omega\in\Omega}|A|^{ar(\omega)}\rightarrow|A|$$ is an *interpretation*.
+   - Objects: Ω-Algebras, $$(\left|A\right|, a)$$.
+     - $$\left|A\right|$$ is a set called *carrier*.
+     - $$a:\sum_{\omega\in\Omega}\left|A\right|^{ar(\omega)}\rightarrow\left|A\right|$$ is an *interpretation*.
        - $$\Omega$$ is a set of operator (signature).
        - $$ar(\omega)$$ is the arity of $$\omega$$.
-   - Arrows: $$\Omega$$-homomorphisms, $$h:|A|\rightarrow|B|$$, such that $$\forall\omega\in\Omega.h\left(a(x_1,...,x_{ar(\omega)})\right)=b\left(h(x_1),...,h(x_{ar(\omega)})\right)$$.
-   - Composition: homomorphism compositon.
+   - Arrows: $$\Omega$$-homomorphisms, $$h:\left|A\right|\rightarrow\left|B\right|$$, such that $$\forall\omega\in\Omega.h\left(a(x_1,...,x_{ar(\omega)})\right)=b\left(h(x_1),...,h(x_{ar(\omega)})\right)$$.
+   - Composition: homomorphism composition.
 
 **More examples:**
 
@@ -81,9 +81,9 @@ A *category* $$C$$ consists of:
   - Composition: transitivity of implication.
     $$
     \begin{prooftree}
-    \AxiomC{f:A\rightarrow B}
-    \AxiomC{g:B\rightarrow C}
-    \BinaryInfC{g\circ f:A\rightarrow C}
+    \AxiomC{$f:A\rightarrow B$}
+    \AxiomC{$g:B\rightarrow C$}
+    \BinaryInfC{$g\circ f:A\rightarrow C$}
     \end{prooftree}
     $$
 
